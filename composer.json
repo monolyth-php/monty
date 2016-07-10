@@ -1,0 +1,46 @@
+{
+    "name": "monolyth/monty",
+    "description": "Monolyth unframework (Full) Monty installer package",
+    "keywords": ["PHP","OO","MVC","framework","unframework","front controller"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marijn Ophorst",
+            "email": "marijn@monomelodies.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "monolyth/booby": "1.1.3",
+        "monolyth/cesession": "^1.0.3",
+        "monolyth/croney": "^0.1.3",
+        "monolyth/dabble": "^1.6.0",
+        "monolyth/disclosure": "^2.0.2",
+        "monolyth/dormant": "^0.3.0",
+        "monolyth/envy": "^0.4.1",
+        "monolyth/formulaic": "^1.5.11",
+        "monolyth/frontal": "^1.4.2",
+        "monolyth/improse": "^0.6.1",
+        "monolyth/mural": "0.2.1",
+        "monolyth/reroute": "^3.4.8"
+
+    },
+    "require-dev": {
+        "monomelodies/gentry": "^0.8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Monolyth\\Monty\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": "example/src",
+            "Monolyth\\Monty\\": "src/",
+            "Monolyth\\Monty\\Test\\": "tests/gentry/"
+        },
+        "files": [
+            "tests/HeaderStack.php"
+        ]
+    }
+}
