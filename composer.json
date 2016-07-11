@@ -22,7 +22,7 @@
         "monolyth/improse": "^0.6.1",
         "monolyth/mural": "0.2.1",
         "monolyth/reroute": "^3.4.8",
-        "monomelodies/dormant": "^0.3.0"
+        "monomelodies/dormant": "^0.2.8"
     },
     "require-dev": {
         "monomelodies/gentry": "^0.8.0"
