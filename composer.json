@@ -19,7 +19,7 @@
         "monolyth/envy": "^0.5.0",
         "monolyth/formulaic": "^1.5.11",
         "monolyth/frontal": "^1.0.0",
-        "monolyth/improse": "^0.6.1",
+        "monolyth/improse": "^0.7.0",
         "monolyth/mural": "0.3.0",
         "monolyth/plumber": "1.0.0",
         "monolyth/reroute": "^3.5.0"
