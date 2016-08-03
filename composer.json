@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "monolyth/booby": "1.1.3",
+        "monolyth/booby": "1.2.0",
         "monolyth/cesession": "^1.1.0",
         "monolyth/croney": "^0.1.3",
         "monolyth/dabble": "^1.6.0",
