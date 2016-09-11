@@ -40,8 +40,5 @@
         "files": [
             "tests/HeaderStack.php"
         ]
-    },
-    "suggest": {
-        "monomelodies/dormant": "Use the Ornament ORM framework in combination with Dabble"
     }
 }
