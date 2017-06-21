@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "25254c6ddeed292d183c2fc9463e81ff",
-    "content-hash": "b04c2ae7160320db58b7962a878215fb",
+    "hash": "036637889d32f52191633e70797d0640",
+    "content-hash": "3e62a367fd1d1e538bcc95d82550f725",
     "packages": [
         {
             "name": "filp/whoops",
@@ -67,20 +67,17 @@
         },
         {
             "name": "jakeasmith/http_build_url",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jakeasmith/http_build_url.git",
-                "reference": "15bdd686e5178ddfa3e88de60fa585adffb292bb"
+                "reference": "93c273e77cb1edead0cf8bcf8cd2003428e74e37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jakeasmith/http_build_url/zipball/15bdd686e5178ddfa3e88de60fa585adffb292bb",
-                "reference": "15bdd686e5178ddfa3e88de60fa585adffb292bb",
+                "url": "https://api.github.com/repos/jakeasmith/http_build_url/zipball/93c273e77cb1edead0cf8bcf8cd2003428e74e37",
+                "reference": "93c273e77cb1edead0cf8bcf8cd2003428e74e37",
                 "shasum": ""
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~3.7"
             },
             "type": "library",
             "autoload": {
@@ -99,7 +96,7 @@
                 }
             ],
             "description": "Provides functionality for http_build_url() to environments without pecl_http.",
-            "time": "2015-05-06 12:27:20"
+            "time": "2017-05-01 15:36:40"
         },
         {
             "name": "league/pipeline",
@@ -196,16 +193,16 @@
         },
         {
             "name": "monolyth/cesession",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/cesession.git",
-                "reference": "da5dfcf8747021a80c596aed207918295318160f"
+                "reference": "2e0d2f7318fbba424f89fda142444f140bbb49d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/cesession/zipball/da5dfcf8747021a80c596aed207918295318160f",
-                "reference": "da5dfcf8747021a80c596aed207918295318160f",
+                "url": "https://api.github.com/repos/monolyth-php/cesession/zipball/2e0d2f7318fbba424f89fda142444f140bbb49d8",
+                "reference": "2e0d2f7318fbba424f89fda142444f140bbb49d8",
                 "shasum": ""
             },
             "require": {
@@ -238,24 +235,24 @@
                 "php",
                 "session"
             ],
-            "time": "2016-08-20 14:23:32"
+            "time": "2017-03-30 06:14:52"
         },
         {
             "name": "monolyth/croney",
-            "version": "0.1.3",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/croney.git",
-                "reference": "b249f932c7ebc4034684e4d9daf4e936eb8cac77"
+                "reference": "c53d698a691ba6375d3768359287a8ffe1bab97e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/croney/zipball/b249f932c7ebc4034684e4d9daf4e936eb8cac77",
-                "reference": "b249f932c7ebc4034684e4d9daf4e936eb8cac77",
+                "url": "https://api.github.com/repos/monolyth-php/croney/zipball/c53d698a691ba6375d3768359287a8ffe1bab97e",
+                "reference": "c53d698a691ba6375d3768359287a8ffe1bab97e",
                 "shasum": ""
             },
             "require-dev": {
-                "monomelodies/gentry": "^0.8.5"
+                "gentry/gentry": "^0.9.0"
             },
             "suggest": {
                 "monolog/monolog": "Log task output somewhere more useful than STDERR"
@@ -263,7 +260,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Croney\\": "src/"
+                    "Monolyth\\Croney\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -277,7 +274,7 @@
                 }
             ],
             "description": "PHP-based CRON scheduler",
-            "time": "2016-06-04 06:20:30"
+            "time": "2016-07-10 14:51:00"
         },
         {
             "name": "monolyth/disclosure",
@@ -327,16 +324,16 @@
         },
         {
             "name": "monolyth/envy",
-            "version": "0.5.1",
+            "version": "0.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/envy.git",
-                "reference": "08609386a2867e8242178378f1453c03a7ea49a0"
+                "reference": "f8c3f1530687290d706da1aefed9aa63f1cba67b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/envy/zipball/08609386a2867e8242178378f1453c03a7ea49a0",
-                "reference": "08609386a2867e8242178378f1453c03a7ea49a0",
+                "url": "https://api.github.com/repos/monolyth-php/envy/zipball/f8c3f1530687290d706da1aefed9aa63f1cba67b",
+                "reference": "f8c3f1530687290d706da1aefed9aa63f1cba67b",
                 "shasum": ""
             },
             "require": {
@@ -362,20 +359,20 @@
                 }
             ],
             "description": "Flexible environment handler for PHP projects (including unit tests!)",
-            "time": "2016-08-03 07:05:39"
+            "time": "2017-04-11 06:52:16"
         },
         {
             "name": "monolyth/formulaic",
-            "version": "1.6.10",
+            "version": "1.6.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/formulaic.git",
-                "reference": "d614664d867171f0329a98f8d2305e8d73cac3ae"
+                "reference": "5ac36aecd2c70dc9d8068117eb5a79e7cce6b502"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/d614664d867171f0329a98f8d2305e8d73cac3ae",
-                "reference": "d614664d867171f0329a98f8d2305e8d73cac3ae",
+                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/5ac36aecd2c70dc9d8068117eb5a79e7cce6b502",
+                "reference": "5ac36aecd2c70dc9d8068117eb5a79e7cce6b502",
                 "shasum": ""
             },
             "require": {
@@ -410,7 +407,7 @@
                 "php",
                 "validation"
             ],
-            "time": "2017-02-08 10:07:41"
+            "time": "2017-06-06 08:55:02"
         },
         {
             "name": "monolyth/frontal",
@@ -593,16 +590,16 @@
         },
         {
             "name": "monolyth/reroute",
-            "version": "3.6.4",
+            "version": "3.6.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/reroute.git",
-                "reference": "735c156f1004ea448291caba8077b72365ada129"
+                "reference": "aefb60d9fed44d1a57fb02bf7669fb992370faa6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/reroute/zipball/735c156f1004ea448291caba8077b72365ada129",
-                "reference": "735c156f1004ea448291caba8077b72365ada129",
+                "url": "https://api.github.com/repos/monolyth-php/reroute/zipball/aefb60d9fed44d1a57fb02bf7669fb992370faa6",
+                "reference": "aefb60d9fed44d1a57fb02bf7669fb992370faa6",
                 "shasum": ""
             },
             "require": {
@@ -635,7 +632,7 @@
                 "php",
                 "router"
             ],
-            "time": "2016-12-31 14:38:01"
+            "time": "2017-05-02 13:52:09"
         },
         {
             "name": "monomelodies/kingconf",
@@ -739,16 +736,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.2.3",
+            "version": "v3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "e1718c6bf57e1efbb8793ada951584b2ab27775b"
+                "reference": "9752a30000a8ca9f4b34b5227d15d0101b96b063"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/e1718c6bf57e1efbb8793ada951584b2ab27775b",
-                "reference": "e1718c6bf57e1efbb8793ada951584b2ab27775b",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/9752a30000a8ca9f4b34b5227d15d0101b96b063",
+                "reference": "9752a30000a8ca9f4b34b5227d15d0101b96b063",
                 "shasum": ""
             },
             "require": {
@@ -763,7 +760,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.2-dev"
+                    "dev-master": "3.3-dev"
                 }
             },
             "autoload": {
@@ -790,20 +787,20 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-21 17:06:35"
+            "time": "2017-06-02 22:05:06"
         },
         {
             "name": "zendframework/zend-diactoros",
-            "version": "1.3.10",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-diactoros.git",
-                "reference": "83e8d98b9915de76c659ce27d683c02a0f99fa90"
+                "reference": "b03f285a333f51e58c95cce54109a4a9ed691436"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/83e8d98b9915de76c659ce27d683c02a0f99fa90",
-                "reference": "83e8d98b9915de76c659ce27d683c02a0f99fa90",
+                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/b03f285a333f51e58c95cce54109a4a9ed691436",
+                "reference": "b03f285a333f51e58c95cce54109a4a9ed691436",
                 "shasum": ""
             },
             "require": {
@@ -811,17 +808,19 @@
                 "psr/http-message": "~1.0"
             },
             "provide": {
-                "psr/http-message-implementation": "~1.0.0"
+                "psr/http-message-implementation": "1.0"
             },
             "require-dev": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
                 "phpunit/phpunit": "^4.6 || ^5.5",
                 "zendframework/zend-coding-standard": "~1.0.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev",
-                    "dev-develop": "1.4-dev"
+                    "dev-master": "1.4-dev",
+                    "dev-develop": "1.5-dev"
                 }
             },
             "autoload": {
@@ -840,7 +839,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2017-01-23 04:53:24"
+            "time": "2017-04-06 16:18:34"
         }
     ],
     "packages-dev": [
