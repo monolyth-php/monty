@@ -10,17 +10,18 @@
         }
     ],
     "require": {
-        "php": ">=5.4",
-        "monolyth/booby": "1.2.0",
+        "php": ">=7",
+        "monolyth/booby": "^1.2.0",
         "monolyth/cesession": "^1.1.0",
-        "monolyth/croney": "^0.2.0",
+        "monolyth/croney": "^0.3.0",
         "monolyth/disclosure": "^2.1.0",
         "monolyth/envy": "^0.5.0",
         "monolyth/formulaic": "^1.6.10",
         "monolyth/frontal": "^1.0.0",
         "monolyth/improse": "^0.7.0",
-        "monolyth/mural": "0.3.0",
-        "monolyth/plumber": "1.0.0",
+        "monolyth/improse": "^0.6.1",
+        "monolyth/mural": "^0.3.0",
+        "monolyth/plumber": "^1.0.0",
         "monolyth/reroute": "^3.5.0"
     },
     "require-dev": {
