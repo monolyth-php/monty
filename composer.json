@@ -13,7 +13,7 @@
         "php": ">=7",
         "monolyth/booby": "^1.2.0",
         "monolyth/cesession": "^1.1.0",
-        "monolyth/croney": "^0.3.0",
+        "monolyth/croney": "^0.4.0",
         "monolyth/disclosure": "^2.1.0",
         "monolyth/envy": "^0.5.0",
         "monolyth/formulaic": "^1.6.10",
