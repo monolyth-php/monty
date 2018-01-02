@@ -23,24 +23,6 @@
         "monolyth/plumber": "^1.0.0",
         "monolyth/reroute": "^3.7.0"
     },
-    "require-dev": {
-        "gentry/gentry": "^0.10.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Monolyth\\Monty\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "": "example/src",
-            "Monolyth\\Monty\\": "src/",
-            "Monolyth\\Monty\\Test\\": "tests/gentry/"
-        },
-        "files": [
-            "tests/HeaderStack.php"
-        ]
-    },
     "suggests": {
         "twig/twig": "The Twig templating language",
         "ornament/ornament": "Ornament ORM toolkit",
