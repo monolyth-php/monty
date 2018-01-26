@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6686f77a7f08f1275fc2d9f58b106b07",
-    "content-hash": "d713830bb5848dae372d6fe6eb18f761",
+    "hash": "555639a49c0b302a5e63948ebc0a3d6c",
+    "content-hash": "2dfe5d5aea8fdea8ab116e95fd82bd95",
     "packages": [
         {
             "name": "filp/whoops",
@@ -363,16 +363,16 @@
         },
         {
             "name": "monolyth/formulaic",
-            "version": "1.7.2",
+            "version": "1.7.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/formulaic.git",
-                "reference": "f7548becb8fdf7d5b30a6a640a7e1186c6710269"
+                "reference": "9c5f611726fadd76f2b51ad379285fad69e22a2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/f7548becb8fdf7d5b30a6a640a7e1186c6710269",
-                "reference": "f7548becb8fdf7d5b30a6a640a7e1186c6710269",
+                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/9c5f611726fadd76f2b51ad379285fad69e22a2e",
+                "reference": "9c5f611726fadd76f2b51ad379285fad69e22a2e",
                 "shasum": ""
             },
             "require": {
@@ -408,7 +408,7 @@
                 "php",
                 "validation"
             ],
-            "time": "2018-01-17 18:39:53"
+            "time": "2018-01-23 14:15:01"
         },
         {
             "name": "monolyth/frontal",
@@ -591,16 +591,16 @@
         },
         {
             "name": "monolyth/reroute",
-            "version": "3.8.0",
+            "version": "3.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/reroute.git",
-                "reference": "032552a820d8e8cf15dd4ab32bd31a5ffa443bdd"
+                "reference": "5ae3ad92e44190e4aa22881ed5bc4b5352cdd187"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/reroute/zipball/032552a820d8e8cf15dd4ab32bd31a5ffa443bdd",
-                "reference": "032552a820d8e8cf15dd4ab32bd31a5ffa443bdd",
+                "url": "https://api.github.com/repos/monolyth-php/reroute/zipball/5ae3ad92e44190e4aa22881ed5bc4b5352cdd187",
+                "reference": "5ae3ad92e44190e4aa22881ed5bc4b5352cdd187",
                 "shasum": ""
             },
             "require": {
@@ -634,7 +634,7 @@
                 "php",
                 "router"
             ],
-            "time": "2018-01-11 07:39:12"
+            "time": "2018-01-26 09:26:07"
         },
         {
             "name": "monomelodies/kingconf",
