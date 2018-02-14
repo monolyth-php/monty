@@ -20,7 +20,7 @@
         "monolyth/frontal": "^1.0.0",
         "monolyth/improse": "^0.7.0",
         "monolyth/mural": "^0.3.0",
-        "monolyth/plumber": "^1.0.0",
+        "monolyth/plumber": "^1.1.0",
         "monolyth/reroute": "^4.0.0"
     },
     "suggests": {
