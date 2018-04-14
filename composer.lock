@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b3d361969839d0a71eec7597e244270b",
+    "hash": "f786170c54f497bccdd183d55e47fbae",
+    "content-hash": "e88488f2928d7d514d01053c7f95b50f",
     "packages": [
         {
             "name": "filp/whoops",
@@ -62,7 +63,7 @@
                 "whoops",
                 "zf2"
             ],
-            "time": "2015-06-29T05:42:04+00:00"
+            "time": "2015-06-29 05:42:04"
         },
         {
             "name": "jakeasmith/http_build_url",
@@ -95,7 +96,7 @@
                 }
             ],
             "description": "Provides functionality for http_build_url() to environments without pecl_http.",
-            "time": "2017-05-01T15:36:40+00:00"
+            "time": "2017-05-01 15:36:40"
         },
         {
             "name": "league/pipeline",
@@ -142,7 +143,7 @@
                 "pipeline",
                 "sequential"
             ],
-            "time": "2015-06-25T16:50:06+00:00"
+            "time": "2015-06-25 16:50:06"
         },
         {
             "name": "monolyth/booby",
@@ -188,7 +189,7 @@
                 "php",
                 "storage"
             ],
-            "time": "2016-07-17T08:53:14+00:00"
+            "time": "2016-07-17 08:53:14"
         },
         {
             "name": "monolyth/cesession",
@@ -234,21 +235,24 @@
                 "php",
                 "session"
             ],
-            "time": "2017-03-30T06:14:52+00:00"
+            "time": "2017-03-30 06:14:52"
         },
         {
             "name": "monolyth/croney",
-            "version": "0.4.0",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/croney.git",
-                "reference": "00ce27d1f213f1e8e3359bb7cf6996932bef14a4"
+                "reference": "ad4e0a26961af848a9dbcf8c3f4479a595cb0b89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/croney/zipball/00ce27d1f213f1e8e3359bb7cf6996932bef14a4",
-                "reference": "00ce27d1f213f1e8e3359bb7cf6996932bef14a4",
+                "url": "https://api.github.com/repos/monolyth-php/croney/zipball/ad4e0a26961af848a9dbcf8c3f4479a595cb0b89",
+                "reference": "ad4e0a26961af848a9dbcf8c3f4479a595cb0b89",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
             },
             "require-dev": {
                 "gentry/gentry": "^0.9.0"
@@ -273,7 +277,7 @@
                 }
             ],
             "description": "PHP-based CRON scheduler",
-            "time": "2017-12-27T07:19:32+00:00"
+            "time": "2018-04-14 15:39:08"
         },
         {
             "name": "monolyth/disclosure",
@@ -319,7 +323,7 @@
                 "monolyth",
                 "php"
             ],
-            "time": "2017-09-06T15:54:53+00:00"
+            "time": "2017-09-06 15:54:53"
         },
         {
             "name": "monolyth/envy",
@@ -358,28 +362,28 @@
                 }
             ],
             "description": "Flexible environment handler for PHP projects (including unit tests!)",
-            "time": "2017-04-11T06:52:16+00:00"
+            "time": "2017-04-11 06:52:16"
         },
         {
             "name": "monolyth/formulaic",
-            "version": "1.8.4",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/formulaic.git",
-                "reference": "c9f0f67c1c3e7ba4aeb12f9c41782fe85be42bee"
+                "reference": "e3174a70316bb1031ade1d3ae08160a7e9365638"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/c9f0f67c1c3e7ba4aeb12f9c41782fe85be42bee",
-                "reference": "c9f0f67c1c3e7ba4aeb12f9c41782fe85be42bee",
+                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/e3174a70316bb1031ade1d3ae08160a7e9365638",
+                "reference": "e3174a70316bb1031ade1d3ae08160a7e9365638",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0"
+                "php": ">=7.2"
             },
             "require-dev": {
                 "gentry/gentry": "^0.10.0",
-                "php": ">=7.0",
+                "php": ">=7.2",
                 "toast/unit": "^1.1"
             },
             "type": "library",
@@ -407,7 +411,7 @@
                 "php",
                 "validation"
             ],
-            "time": "2018-02-08T15:10:08+00:00"
+            "time": "2018-03-09 17:23:08"
         },
         {
             "name": "monolyth/frontal",
@@ -461,7 +465,7 @@
                 "php",
                 "unframework"
             ],
-            "time": "2016-07-16T08:30:54+00:00"
+            "time": "2016-07-16 08:30:54"
         },
         {
             "name": "monolyth/improse",
@@ -506,7 +510,7 @@
                 "template",
                 "view"
             ],
-            "time": "2016-07-16T07:01:18+00:00"
+            "time": "2016-07-16 07:01:18"
         },
         {
             "name": "monolyth/mural",
@@ -550,7 +554,7 @@
                 }
             ],
             "description": "MUltiple \"Resource\" AutoLoader",
-            "time": "2016-07-16T08:38:04+00:00"
+            "time": "2016-07-16 08:38:04"
         },
         {
             "name": "monolyth/plumber",
@@ -589,20 +593,20 @@
                 }
             ],
             "description": "Utilities for the Monolyth unframework",
-            "time": "2018-02-14T06:16:18+00:00"
+            "time": "2018-02-14 06:16:18"
         },
         {
             "name": "monolyth/reroute",
-            "version": "4.2.0",
+            "version": "4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/reroute.git",
-                "reference": "78b03e4b0c98e8566a5ef0bc0965fdfe2cdfd657"
+                "reference": "064353716255dba088bdb02fbd52ecbd877960c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/reroute/zipball/78b03e4b0c98e8566a5ef0bc0965fdfe2cdfd657",
-                "reference": "78b03e4b0c98e8566a5ef0bc0965fdfe2cdfd657",
+                "url": "https://api.github.com/repos/monolyth-php/reroute/zipball/064353716255dba088bdb02fbd52ecbd877960c3",
+                "reference": "064353716255dba088bdb02fbd52ecbd877960c3",
                 "shasum": ""
             },
             "require": {
@@ -636,7 +640,7 @@
                 "php",
                 "router"
             ],
-            "time": "2018-02-27T13:19:43+00:00"
+            "time": "2018-03-02 13:29:58"
         },
         {
             "name": "monomelodies/kingconf",
@@ -686,7 +690,7 @@
                 "xml",
                 "yaml"
             ],
-            "time": "2018-02-01T18:46:24+00:00"
+            "time": "2018-02-01 18:46:24"
         },
         {
             "name": "psr/http-message",
@@ -736,20 +740,20 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06T14:39:51+00:00"
+            "time": "2016-08-06 14:39:51"
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.0.4",
+            "version": "v4.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "ffc60bda1d4a00ec0b32eeabf39dc017bf480028"
+                "reference": "8b34ebb5989df61cbd77eff29a02c4db9ac1069c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/ffc60bda1d4a00ec0b32eeabf39dc017bf480028",
-                "reference": "ffc60bda1d4a00ec0b32eeabf39dc017bf480028",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/8b34ebb5989df61cbd77eff29a02c4db9ac1069c",
+                "reference": "8b34ebb5989df61cbd77eff29a02c4db9ac1069c",
                 "shasum": ""
             },
             "require": {
@@ -794,7 +798,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-21T19:06:11+00:00"
+            "time": "2018-04-03 05:24:00"
         },
         {
             "name": "zendframework/zend-diactoros",
@@ -846,7 +850,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2018-02-26T15:44:50+00:00"
+            "time": "2018-02-26 15:44:50"
         }
     ],
     "packages-dev": [],
@@ -856,7 +860,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7"
+        "php": ">=7.2"
     },
     "platform-dev": []
 }
