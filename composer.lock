@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6802bcb87bb4518070df34b3b2e45ffe",
-    "content-hash": "d1323603e6e6972c15efecf84d86e5c4",
+    "hash": "ad6e94e04e8ee4b82a242a683470a473",
+    "content-hash": "e329d55709c2b862ff463129862445a0",
     "packages": [
         {
             "name": "filp/whoops",
@@ -597,16 +597,16 @@
         },
         {
             "name": "monolyth/reroute",
-            "version": "4.2.4",
+            "version": "4.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/reroute.git",
-                "reference": "2811e1f46b4b19330f41e59db1cdffc37657f4bb"
+                "reference": "ade67b334308020e7142d44911a649628ba85c09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/reroute/zipball/2811e1f46b4b19330f41e59db1cdffc37657f4bb",
-                "reference": "2811e1f46b4b19330f41e59db1cdffc37657f4bb",
+                "url": "https://api.github.com/repos/monolyth-php/reroute/zipball/ade67b334308020e7142d44911a649628ba85c09",
+                "reference": "ade67b334308020e7142d44911a649628ba85c09",
                 "shasum": ""
             },
             "require": {
@@ -640,7 +640,7 @@
                 "php",
                 "router"
             ],
-            "time": "2018-04-27 12:58:55"
+            "time": "2018-04-27 13:12:08"
         },
         {
             "name": "monomelodies/kingconf",
