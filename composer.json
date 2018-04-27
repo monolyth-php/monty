@@ -21,7 +21,7 @@
         "monolyth/improse": "^0.7.0",
         "monolyth/mural": "^0.3.0",
         "monolyth/plumber": "^1.1.0",
-        "monolyth/reroute": "^4.2.0"
+        "monolyth/reroute": "^4.2.4"
     },
     "suggests": {
         "twig/twig": "The Twig templating language",
