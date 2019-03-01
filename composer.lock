@@ -268,16 +268,16 @@
         },
         {
             "name": "monolyth/croney",
-            "version": "0.5.1",
+            "version": "0.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/croney.git",
-                "reference": "664a996d74e77e231c11b8e5e7c6983b0baddb57"
+                "reference": "008334d104d689e24af600b74151c9447a934438"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/croney/zipball/664a996d74e77e231c11b8e5e7c6983b0baddb57",
-                "reference": "664a996d74e77e231c11b8e5e7c6983b0baddb57",
+                "url": "https://api.github.com/repos/monolyth-php/croney/zipball/008334d104d689e24af600b74151c9447a934438",
+                "reference": "008334d104d689e24af600b74151c9447a934438",
                 "shasum": ""
             },
             "require": {
@@ -307,7 +307,7 @@
                 }
             ],
             "description": "PHP-based CRON scheduler",
-            "time": "2018-09-08T07:35:27+00:00"
+            "time": "2019-03-01T13:33:38+00:00"
         },
         {
             "name": "monolyth/disclosure",
@@ -397,16 +397,16 @@
         },
         {
             "name": "monolyth/formulaic",
-            "version": "1.9.1",
+            "version": "1.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/formulaic.git",
-                "reference": "a3b426c53448a5341b7a891976b864c92b5d3094"
+                "reference": "c4bb30843e6519327836afec36386608853893cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/a3b426c53448a5341b7a891976b864c92b5d3094",
-                "reference": "a3b426c53448a5341b7a891976b864c92b5d3094",
+                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/c4bb30843e6519327836afec36386608853893cf",
+                "reference": "c4bb30843e6519327836afec36386608853893cf",
                 "shasum": ""
             },
             "require": {
@@ -442,7 +442,7 @@
                 "php",
                 "validation"
             ],
-            "time": "2018-04-22T14:25:52+00:00"
+            "time": "2018-10-19T15:27:51+00:00"
         },
         {
             "name": "monolyth/frontal",
@@ -628,16 +628,16 @@
         },
         {
             "name": "monolyth/reroute",
-            "version": "4.2.6",
+            "version": "4.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/reroute.git",
-                "reference": "e171b85a610188fa18663b9780604cf6c0b93a5f"
+                "reference": "2e6e3310ed36fcf24a6af1bf23cbd10e07fb1610"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/reroute/zipball/e171b85a610188fa18663b9780604cf6c0b93a5f",
-                "reference": "e171b85a610188fa18663b9780604cf6c0b93a5f",
+                "url": "https://api.github.com/repos/monolyth-php/reroute/zipball/2e6e3310ed36fcf24a6af1bf23cbd10e07fb1610",
+                "reference": "2e6e3310ed36fcf24a6af1bf23cbd10e07fb1610",
                 "shasum": ""
             },
             "require": {
@@ -671,7 +671,7 @@
                 "php",
                 "router"
             ],
-            "time": "2018-08-28T12:34:03+00:00"
+            "time": "2018-12-30T09:54:00+00:00"
         },
         {
             "name": "monomelodies/kingconf",
@@ -821,7 +821,7 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.9.0",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -879,16 +879,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.46",
+            "version": "v2.8.49",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "5baf0f821b14eee8ca415e6a0361a9fa140c002c"
+                "reference": "02c1859112aa779d9ab394ae4f3381911d84052b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/5baf0f821b14eee8ca415e6a0361a9fa140c002c",
-                "reference": "5baf0f821b14eee8ca415e6a0361a9fa140c002c",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/02c1859112aa779d9ab394ae4f3381911d84052b",
+                "reference": "02c1859112aa779d9ab394ae4f3381911d84052b",
                 "shasum": ""
             },
             "require": {
@@ -925,7 +925,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2018-08-29T13:11:53+00:00"
+            "time": "2018-11-11T11:18:13+00:00"
         },
         {
             "name": "toast/unit",
