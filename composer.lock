@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c4dd0784fc748bcf1db56060858c960",
+    "content-hash": "e636de0cb0222228f388a34a899973fb",
     "packages": [
         {
             "name": "filp/whoops",
@@ -174,23 +174,24 @@
         },
         {
             "name": "monolyth/booby",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/booby.git",
-                "reference": "757f92f3918f8e458fdb0ab0ef360e2d3ab96833"
+                "reference": "22a1dab3aa033603b4dbc8926bfc0488ce40832e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/booby/zipball/757f92f3918f8e458fdb0ab0ef360e2d3ab96833",
-                "reference": "757f92f3918f8e458fdb0ab0ef360e2d3ab96833",
+                "url": "https://api.github.com/repos/monolyth-php/booby/zipball/22a1dab3aa033603b4dbc8926bfc0488ce40832e",
+                "reference": "22a1dab3aa033603b4dbc8926bfc0488ce40832e",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5"
+                "php": ">=7.3"
             },
             "require-dev": {
-                "gentry/gentry": "^0.9.0"
+                "gentry/gentry": "^0.13.0",
+                "toast/unit": "^1.3"
             },
             "type": "library",
             "autoload": {
@@ -216,7 +217,7 @@
                 "php",
                 "storage"
             ],
-            "time": "2016-07-17T08:53:14+00:00"
+            "time": "2019-04-14T15:30:09+00:00"
         },
         {
             "name": "monolyth/cesession",
@@ -358,23 +359,23 @@
         },
         {
             "name": "monolyth/envy",
-            "version": "0.5.3",
+            "version": "0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/envy.git",
-                "reference": "f8c3f1530687290d706da1aefed9aa63f1cba67b"
+                "reference": "b3c05dfa1075d81fb82d0ea7c33288a1a53e77b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/envy/zipball/f8c3f1530687290d706da1aefed9aa63f1cba67b",
-                "reference": "f8c3f1530687290d706da1aefed9aa63f1cba67b",
+                "url": "https://api.github.com/repos/monolyth-php/envy/zipball/b3c05dfa1075d81fb82d0ea7c33288a1a53e77b1",
+                "reference": "b3c05dfa1075d81fb82d0ea7c33288a1a53e77b1",
                 "shasum": ""
             },
             "require": {
-                "monomelodies/kingconf": "^1.1.0"
+                "monomelodies/kingconf": "^1.1.5"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8"
+                "phpunit/phpunit": "^8.1.6"
             },
             "type": "library",
             "autoload": {
@@ -393,28 +394,27 @@
                 }
             ],
             "description": "Flexible environment handler for PHP projects (including unit tests!)",
-            "time": "2017-04-11T06:52:16+00:00"
+            "time": "2019-06-06T13:25:55+00:00"
         },
         {
             "name": "monolyth/formulaic",
-            "version": "1.9.2",
+            "version": "1.9.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/formulaic.git",
-                "reference": "c4bb30843e6519327836afec36386608853893cf"
+                "reference": "54734cf56a81ee399bc94b5fbd24daf73856a494"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/c4bb30843e6519327836afec36386608853893cf",
-                "reference": "c4bb30843e6519327836afec36386608853893cf",
+                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/54734cf56a81ee399bc94b5fbd24daf73856a494",
+                "reference": "54734cf56a81ee399bc94b5fbd24daf73856a494",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2"
+                "php": ">=7.3"
             },
             "require-dev": {
                 "gentry/gentry": "^0.10.0",
-                "php": ">=7.2",
                 "toast/unit": "^1.1"
             },
             "type": "library",
@@ -442,7 +442,7 @@
                 "php",
                 "validation"
             ],
-            "time": "2018-10-19T15:27:51+00:00"
+            "time": "2019-05-24T15:05:52+00:00"
         },
         {
             "name": "monolyth/frontal",
@@ -675,21 +675,21 @@
         },
         {
             "name": "monomelodies/kingconf",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monomelodies/kingconf.git",
-                "reference": "30c85dabb840ec5229e93fb010e1493c0278c959"
+                "reference": "6709a1b23cd906a2a16bf8780730a404ca769e63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monomelodies/kingconf/zipball/30c85dabb840ec5229e93fb010e1493c0278c959",
-                "reference": "30c85dabb840ec5229e93fb010e1493c0278c959",
+                "url": "https://api.github.com/repos/monomelodies/kingconf/zipball/6709a1b23cd906a2a16bf8780730a404ca769e63",
+                "reference": "6709a1b23cd906a2a16bf8780730a404ca769e63",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2",
-                "symfony/yaml": "^2.8.9"
+                "symfony/yaml": "^4.3.0"
             },
             "require-dev": {
                 "phpunit/phpunit": ">=4"
@@ -721,7 +721,7 @@
                 "xml",
                 "yaml"
             ],
-            "time": "2018-07-18T07:30:47+00:00"
+            "time": "2019-06-06T13:16:02+00:00"
         },
         {
             "name": "psr/http-message",
@@ -821,16 +821,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19"
+                "reference": "82ebae02209c21113908c229e9883c419720738a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e3d826245268269cd66f8326bd8bc066687b4a19",
-                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/82ebae02209c21113908c229e9883c419720738a",
+                "reference": "82ebae02209c21113908c229e9883c419720738a",
                 "shasum": ""
             },
             "require": {
@@ -842,7 +842,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.11-dev"
                 }
             },
             "autoload": {
@@ -875,30 +875,39 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2018-08-06T14:22:27+00:00"
+            "time": "2019-02-06T07:57:58+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.49",
+            "version": "v4.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "02c1859112aa779d9ab394ae4f3381911d84052b"
+                "reference": "c60ecf5ba842324433b46f58dc7afc4487dbab99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/02c1859112aa779d9ab394ae4f3381911d84052b",
-                "reference": "02c1859112aa779d9ab394ae4f3381911d84052b",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/c60ecf5ba842324433b46f58dc7afc4487dbab99",
+                "reference": "c60ecf5ba842324433b46f58dc7afc4487dbab99",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9",
+                "php": "^7.1.3",
                 "symfony/polyfill-ctype": "~1.8"
+            },
+            "conflict": {
+                "symfony/console": "<3.4"
+            },
+            "require-dev": {
+                "symfony/console": "~3.4|~4.0"
+            },
+            "suggest": {
+                "symfony/console": "For validating YAML files using the lint command"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "4.3-dev"
                 }
             },
             "autoload": {
@@ -925,7 +934,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2018-11-11T11:18:13+00:00"
+            "time": "2019-04-06T14:04:46+00:00"
         },
         {
             "name": "toast/unit",
@@ -1040,7 +1049,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.2"
+        "php": ">=7.3"
     },
     "platform-dev": []
 }
