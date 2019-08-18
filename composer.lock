@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "40b14f9e1141efd857782a9fa6fda5e0",
+    "content-hash": "ed629b7c66edc2bed898d54449d957ce",
     "packages": [
         {
             "name": "filp/whoops",
@@ -63,34 +63,6 @@
                 "zf2"
             ],
             "time": "2015-06-29T05:42:04+00:00"
-        },
-        {
-            "name": "gentry/toast",
-            "version": "0.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/gentry-php/toast.git",
-                "reference": "c5b9ea4e7a3a683006ba182fe137f2455b5f264e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/gentry-php/toast/zipball/c5b9ea4e7a3a683006ba182fe137f2455b5f264e",
-                "reference": "c5b9ea4e7a3a683006ba182fe137f2455b5f264e",
-                "shasum": ""
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marijn Ophorst",
-                    "email": "marijn@monomelodies.nl"
-                }
-            ],
-            "description": "Toast templates for Gentry",
-            "time": "2017-09-19T11:32:17+00:00"
         },
         {
             "name": "jakeasmith/http_build_url",
@@ -221,26 +193,25 @@
         },
         {
             "name": "monolyth/cesession",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/cesession.git",
-                "reference": "4b1660396dab801177d34271154f7f6d286de6fa"
+                "reference": "227064090f793e1efe90a0b808687faebf0f816e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/cesession/zipball/4b1660396dab801177d34271154f7f6d286de6fa",
-                "reference": "4b1660396dab801177d34271154f7f6d286de6fa",
+                "url": "https://api.github.com/repos/monolyth-php/cesession/zipball/227064090f793e1efe90a0b808687faebf0f816e",
+                "reference": "227064090f793e1efe90a0b808687faebf0f816e",
                 "shasum": ""
             },
             "require": {
-                "gentry/toast": "^0.1.0",
-                "php": ">=7.2",
-                "toast/unit": "^1.3"
+                "php": ">=7.3"
             },
             "require-dev": {
-                "ext-memcached": "*",
-                "gentry/gentry": "^0.13.0"
+                "gentry/gentry": "^0.13.0",
+                "gentry/toast": "^0.1.0",
+                "toast/unit": "^1.3"
             },
             "type": "library",
             "autoload": {
@@ -265,7 +236,7 @@
                 "php",
                 "session"
             ],
-            "time": "2018-10-05T12:02:09+00:00"
+            "time": "2019-08-18T13:00:59+00:00"
         },
         {
             "name": "monolyth/cliff",
@@ -770,20 +741,20 @@
         },
         {
             "name": "monomelodies/reflex",
-            "version": "0.3.0",
+            "version": "0.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monomelodies/reflex.git",
-                "reference": "7105c4c0945b5ab8b4a5d4b91c653eb513947e17"
+                "reference": "7d6ccf141dea483e9b42ea0b4ca7c43a3b3ddf75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monomelodies/reflex/zipball/7105c4c0945b5ab8b4a5d4b91c653eb513947e17",
-                "reference": "7105c4c0945b5ab8b4a5d4b91c653eb513947e17",
+                "url": "https://api.github.com/repos/monomelodies/reflex/zipball/7d6ccf141dea483e9b42ea0b4ca7c43a3b3ddf75",
+                "reference": "7d6ccf141dea483e9b42ea0b4ca7c43a3b3ddf75",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7",
+                "php": ">=7.3",
                 "zeptech/annotations": "^1.1"
             },
             "require-dev": {
@@ -807,7 +778,7 @@
                 }
             ],
             "description": "Reflection utilities for PHP7+",
-            "time": "2019-08-18T07:48:23+00:00"
+            "time": "2019-08-18T12:20:25+00:00"
         },
         {
             "name": "psr/http-message",
