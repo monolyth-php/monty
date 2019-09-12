@@ -240,16 +240,16 @@
         },
         {
             "name": "monolyth/cliff",
-            "version": "0.2.1",
+            "version": "0.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/cliff.git",
-                "reference": "1a541b552b02df57fac230c343b2dab08dea9ecb"
+                "reference": "5cc9068f51218b34b1a063fbcf7c7b9fa05cb2e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/cliff/zipball/1a541b552b02df57fac230c343b2dab08dea9ecb",
-                "reference": "1a541b552b02df57fac230c343b2dab08dea9ecb",
+                "url": "https://api.github.com/repos/monolyth-php/cliff/zipball/5cc9068f51218b34b1a063fbcf7c7b9fa05cb2e2",
+                "reference": "5cc9068f51218b34b1a063fbcf7c7b9fa05cb2e2",
                 "shasum": ""
             },
             "require": {
@@ -281,7 +281,7 @@
                 }
             ],
             "description": "Command line interface for Monolyth unframework",
-            "time": "2019-08-27T12:59:07+00:00"
+            "time": "2019-09-12T14:23:52+00:00"
         },
         {
             "name": "monolyth/croney",
