@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed629b7c66edc2bed898d54449d957ce",
+    "content-hash": "0896ad26423ee7e7a4734702ec40241f",
     "packages": [
         {
             "name": "filp/whoops",
@@ -190,6 +190,48 @@
                 "storage"
             ],
             "time": "2019-04-14T15:30:09+00:00"
+        },
+        {
+            "name": "monolyth/cachet",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/monolyth-php/cachet.git",
+                "reference": "368e5a2fc8c0e81dd2ea99e8be87f069a28221bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/monolyth-php/cachet/zipball/368e5a2fc8c0e81dd2ea99e8be87f069a28221bb",
+                "reference": "368e5a2fc8c0e81dd2ea99e8be87f069a28221bb",
+                "shasum": ""
+            },
+            "require": {
+                "monolyth/cliff": "^0.2.3"
+            },
+            "require-dev": {
+                "gentry/gentry": "^0.13.7",
+                "gentry/toast": "^0.1.0",
+                "toast/unit": "^1.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Monolyth\\Cachet\\": "./src",
+                    "Tools\\": "./tools"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marijn Ophorst",
+                    "email": "marijn@monomelodies.nl"
+                }
+            ],
+            "description": "Cachebuster command",
+            "time": "2019-09-29T13:48:58+00:00"
         },
         {
             "name": "monolyth/cesession",
