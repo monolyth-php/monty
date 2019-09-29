@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0896ad26423ee7e7a4734702ec40241f",
+    "content-hash": "34cfb9f01bbd4994b6f1b3ef4290301a",
     "packages": [
         {
             "name": "filp/whoops",
@@ -504,21 +504,21 @@
         },
         {
             "name": "monolyth/frontal",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/frontal.git",
-                "reference": "a30c7b960a678be78ee04813dd9935180359a690"
+                "reference": "51422de14b717e1cedad8d33299ae42537177071"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/frontal/zipball/a30c7b960a678be78ee04813dd9935180359a690",
-                "reference": "a30c7b960a678be78ee04813dd9935180359a690",
+                "url": "https://api.github.com/repos/monolyth-php/frontal/zipball/51422de14b717e1cedad8d33299ae42537177071",
+                "reference": "51422de14b717e1cedad8d33299ae42537177071",
                 "shasum": ""
             },
             "require": {
                 "league/pipeline": "^0.1.0",
-                "php": ">=5.4",
+                "php": ">=7.2",
                 "zendframework/zend-diactoros": "^1.2"
             },
             "require-dev": {
@@ -554,7 +554,7 @@
                 "php",
                 "unframework"
             ],
-            "time": "2019-09-29T13:53:03+00:00"
+            "time": "2019-09-29T13:56:35+00:00"
         },
         {
             "name": "monolyth/improse",
