@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "34cfb9f01bbd4994b6f1b3ef4290301a",
+    "content-hash": "51ef8bf3379a85819016735b94f2b1d1",
     "packages": [
         {
             "name": "filp/whoops",
@@ -193,20 +193,20 @@
         },
         {
             "name": "monolyth/cachet",
-            "version": "1.0.0",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/cachet.git",
-                "reference": "368e5a2fc8c0e81dd2ea99e8be87f069a28221bb"
+                "reference": "501933939b75fd33dafbd1d07b0224fd2236811e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/cachet/zipball/368e5a2fc8c0e81dd2ea99e8be87f069a28221bb",
-                "reference": "368e5a2fc8c0e81dd2ea99e8be87f069a28221bb",
+                "url": "https://api.github.com/repos/monolyth-php/cachet/zipball/501933939b75fd33dafbd1d07b0224fd2236811e",
+                "reference": "501933939b75fd33dafbd1d07b0224fd2236811e",
                 "shasum": ""
             },
             "require": {
-                "monolyth/cliff": "^0.2.3"
+                "monolyth/cliff": "^0.3.0"
             },
             "require-dev": {
                 "gentry/gentry": "^0.13.7",
@@ -231,7 +231,7 @@
                 }
             ],
             "description": "Cachebuster command",
-            "time": "2019-09-29T13:48:58+00:00"
+            "time": "2019-10-27T15:05:41+00:00"
         },
         {
             "name": "monolyth/cesession",
@@ -282,16 +282,16 @@
         },
         {
             "name": "monolyth/cliff",
-            "version": "0.2.3",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/cliff.git",
-                "reference": "5cc9068f51218b34b1a063fbcf7c7b9fa05cb2e2"
+                "reference": "624ee0d70c9dd6b33489742303e6c92d04087a06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/cliff/zipball/5cc9068f51218b34b1a063fbcf7c7b9fa05cb2e2",
-                "reference": "5cc9068f51218b34b1a063fbcf7c7b9fa05cb2e2",
+                "url": "https://api.github.com/repos/monolyth-php/cliff/zipball/624ee0d70c9dd6b33489742303e6c92d04087a06",
+                "reference": "624ee0d70c9dd6b33489742303e6c92d04087a06",
                 "shasum": ""
             },
             "require": {
@@ -323,7 +323,7 @@
                 }
             ],
             "description": "Command line interface for Monolyth unframework",
-            "time": "2019-09-12T14:23:52+00:00"
+            "time": "2019-10-27T14:07:39+00:00"
         },
         {
             "name": "monolyth/croney",
@@ -783,16 +783,16 @@
         },
         {
             "name": "monomelodies/reflex",
-            "version": "0.3.2",
+            "version": "0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monomelodies/reflex.git",
-                "reference": "7d6ccf141dea483e9b42ea0b4ca7c43a3b3ddf75"
+                "reference": "70dc4d8980bbb986bd86ec4d9e7112ba3c9728df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monomelodies/reflex/zipball/7d6ccf141dea483e9b42ea0b4ca7c43a3b3ddf75",
-                "reference": "7d6ccf141dea483e9b42ea0b4ca7c43a3b3ddf75",
+                "url": "https://api.github.com/repos/monomelodies/reflex/zipball/70dc4d8980bbb986bd86ec4d9e7112ba3c9728df",
+                "reference": "70dc4d8980bbb986bd86ec4d9e7112ba3c9728df",
                 "shasum": ""
             },
             "require": {
@@ -820,7 +820,7 @@
                 }
             ],
             "description": "Reflection utilities for PHP7+",
-            "time": "2019-08-18T12:20:25+00:00"
+            "time": "2019-10-05T15:58:17+00:00"
         },
         {
             "name": "psr/http-message",
@@ -978,16 +978,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.3.4",
+            "version": "v4.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "5a0b7c32dc3ec56fd4abae8a4a71b0cf05013686"
+                "reference": "41e16350a2a1c7383c4735aa2f9fce74cf3d1178"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/5a0b7c32dc3ec56fd4abae8a4a71b0cf05013686",
-                "reference": "5a0b7c32dc3ec56fd4abae8a4a71b0cf05013686",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/41e16350a2a1c7383c4735aa2f9fce74cf3d1178",
+                "reference": "41e16350a2a1c7383c4735aa2f9fce74cf3d1178",
                 "shasum": ""
             },
             "require": {
@@ -1033,7 +1033,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-20T14:27:59+00:00"
+            "time": "2019-09-11T15:41:19+00:00"
         },
         {
             "name": "toast/unit",
