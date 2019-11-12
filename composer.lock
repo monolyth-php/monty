@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "51ef8bf3379a85819016735b94f2b1d1",
+    "content-hash": "67b202e7361e381a35ba814847c77881",
     "packages": [
         {
             "name": "filp/whoops",
@@ -193,20 +193,20 @@
         },
         {
             "name": "monolyth/cachet",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/cachet.git",
-                "reference": "501933939b75fd33dafbd1d07b0224fd2236811e"
+                "reference": "24d45025126e1e14602dc5dae9b1be920761adbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/cachet/zipball/501933939b75fd33dafbd1d07b0224fd2236811e",
-                "reference": "501933939b75fd33dafbd1d07b0224fd2236811e",
+                "url": "https://api.github.com/repos/monolyth-php/cachet/zipball/24d45025126e1e14602dc5dae9b1be920761adbb",
+                "reference": "24d45025126e1e14602dc5dae9b1be920761adbb",
                 "shasum": ""
             },
             "require": {
-                "monolyth/cliff": "^0.3.0"
+                "monolyth/cliff": "^0.4.0"
             },
             "require-dev": {
                 "gentry/gentry": "^0.13.7",
@@ -231,7 +231,7 @@
                 }
             ],
             "description": "Cachebuster command",
-            "time": "2019-10-27T15:05:41+00:00"
+            "time": "2019-11-12T15:07:10+00:00"
         },
         {
             "name": "monolyth/cesession",
@@ -282,25 +282,26 @@
         },
         {
             "name": "monolyth/cliff",
-            "version": "0.3.2",
+            "version": "0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/cliff.git",
-                "reference": "d86c147d2747bbf48232d2c218a581b7977a7437"
+                "reference": "e8c7e3645da9f8ddadc938bb6d1b1224c1d1d308"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/cliff/zipball/d86c147d2747bbf48232d2c218a581b7977a7437",
-                "reference": "d86c147d2747bbf48232d2c218a581b7977a7437",
+                "url": "https://api.github.com/repos/monolyth-php/cliff/zipball/e8c7e3645da9f8ddadc938bb6d1b1224c1d1d308",
+                "reference": "e8c7e3645da9f8ddadc938bb6d1b1224c1d1d308",
                 "shasum": ""
             },
             "require": {
                 "monomelodies/reflex": "^0.3.0",
+                "php": ">=7.3",
                 "ulrichsg/getopt-php": "^3.2",
                 "zeptech/annotations": "^1.1"
             },
             "require-dev": {
-                "toast/unit": "^1.3"
+                "toast/unit": "^2.0"
             },
             "bin": [
                 "bin/cliff"
@@ -323,20 +324,20 @@
                 }
             ],
             "description": "Command line interface for Monolyth unframework",
-            "time": "2019-11-03T09:26:05+00:00"
+            "time": "2019-11-12T16:43:30+00:00"
         },
         {
             "name": "monolyth/croney",
-            "version": "0.5.2",
+            "version": "0.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/croney.git",
-                "reference": "008334d104d689e24af600b74151c9447a934438"
+                "reference": "665d7082d12f2fa633b39e6bf11555f1e70f15de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/croney/zipball/008334d104d689e24af600b74151c9447a934438",
-                "reference": "008334d104d689e24af600b74151c9447a934438",
+                "url": "https://api.github.com/repos/monolyth-php/croney/zipball/665d7082d12f2fa633b39e6bf11555f1e70f15de",
+                "reference": "665d7082d12f2fa633b39e6bf11555f1e70f15de",
                 "shasum": ""
             },
             "require": {
@@ -345,9 +346,6 @@
             "require-dev": {
                 "gentry/gentry": "^0.13.0",
                 "toast/unit": "^1.3"
-            },
-            "suggest": {
-                "monolog/monolog": "Log task output somewhere more useful than STDERR"
             },
             "type": "library",
             "autoload": {
@@ -366,7 +364,7 @@
                 }
             ],
             "description": "PHP-based CRON scheduler",
-            "time": "2019-03-01T13:33:38+00:00"
+            "time": "2019-11-12T15:00:52+00:00"
         },
         {
             "name": "monolyth/disclosure",
@@ -977,7 +975,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.3.6",
+            "version": "v4.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
