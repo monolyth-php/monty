@@ -22,7 +22,7 @@
         "monolyth/mural": "^0.3.0",
         "monolyth/plumber": "^1.1.0",
         "monolyth/reroute": "^4.2.5",
-        "monolyth/cliff": "^0.3.0",
+        "monolyth/cliff": "^0.4.0",
         "monolyth/cachet": "^1.0.2"
     },
     "suggests": {
