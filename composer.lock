@@ -455,24 +455,24 @@
         },
         {
             "name": "monolyth/formulaic",
-            "version": "1.9.7",
+            "version": "1.9.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/formulaic.git",
-                "reference": "54734cf56a81ee399bc94b5fbd24daf73856a494"
+                "reference": "fc700df36368ebe7bd795ac163c9fac01e8c01a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/54734cf56a81ee399bc94b5fbd24daf73856a494",
-                "reference": "54734cf56a81ee399bc94b5fbd24daf73856a494",
+                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/fc700df36368ebe7bd795ac163c9fac01e8c01a4",
+                "reference": "fc700df36368ebe7bd795ac163c9fac01e8c01a4",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.3"
             },
             "require-dev": {
-                "gentry/gentry": "^0.10.0",
-                "toast/unit": "^1.1"
+                "gentry/gentry": "^0.13",
+                "toast/unit": "^2.0"
             },
             "type": "library",
             "autoload": {
@@ -499,7 +499,7 @@
                 "php",
                 "validation"
             ],
-            "time": "2019-05-24T15:05:52+00:00"
+            "time": "2019-11-18T09:06:52+00:00"
         },
         {
             "name": "monolyth/frontal",
