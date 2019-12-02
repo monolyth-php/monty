@@ -503,25 +503,27 @@
         },
         {
             "name": "monolyth/frontal",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/frontal.git",
-                "reference": "51422de14b717e1cedad8d33299ae42537177071"
+                "reference": "71ce23d5917ed9b1dd39ee624ab9dbdfb0eb8337"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/frontal/zipball/51422de14b717e1cedad8d33299ae42537177071",
-                "reference": "51422de14b717e1cedad8d33299ae42537177071",
+                "url": "https://api.github.com/repos/monolyth-php/frontal/zipball/71ce23d5917ed9b1dd39ee624ab9dbdfb0eb8337",
+                "reference": "71ce23d5917ed9b1dd39ee624ab9dbdfb0eb8337",
                 "shasum": ""
             },
             "require": {
                 "league/pipeline": "^0.1.0",
-                "php": ">=7.2",
+                "php": ">=7.3",
                 "zendframework/zend-diactoros": "^1.2"
             },
             "require-dev": {
-                "gentry/gentry": "^0.10.0"
+                "gentry/gentry": "^0.13.12",
+                "gentry/toast": "^0.1.1",
+                "toast/unit": "^2.0"
             },
             "suggest": {
                 "filp/whoops": "PHP errors for cool kids",
@@ -553,7 +555,7 @@
                 "php",
                 "unframework"
             ],
-            "time": "2019-09-29T13:56:35+00:00"
+            "time": "2019-12-02T16:16:12+00:00"
         },
         {
             "name": "monolyth/improse",
