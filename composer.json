@@ -29,6 +29,8 @@
         "twig/twig": "The Twig templating language",
         "ornament/core": "Ornament ORM toolkit",
         "quibble/dabble": "Quibble Database Abstraction Layer (and related components)",
-        "monomelodies/monki": "Quickly bootstrap an API"
+        "monomelodies/monki": "Quickly bootstrap an API",
+        "toast/unit": "Toast unit tests",
+        "gentry/gentry": "Gentry unit test generation"
     }
 }
