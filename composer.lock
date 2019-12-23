@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5470ecdd6ebde3de1e85640fb334c96",
+    "content-hash": "2b5fe4c3ec5f6df45f828635d2c8a81a",
     "packages": [
         {
             "name": "filp/whoops",
@@ -193,25 +193,25 @@
         },
         {
             "name": "monolyth/cachet",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/cachet.git",
-                "reference": "24d45025126e1e14602dc5dae9b1be920761adbb"
+                "reference": "e6fe85ebcc625b69f3906be972ecf4989c8829c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/cachet/zipball/24d45025126e1e14602dc5dae9b1be920761adbb",
-                "reference": "24d45025126e1e14602dc5dae9b1be920761adbb",
+                "url": "https://api.github.com/repos/monolyth-php/cachet/zipball/e6fe85ebcc625b69f3906be972ecf4989c8829c5",
+                "reference": "e6fe85ebcc625b69f3906be972ecf4989c8829c5",
                 "shasum": ""
             },
             "require": {
-                "monolyth/cliff": "^0.4.0"
+                "monolyth/cliff": "^0.6.0"
             },
             "require-dev": {
                 "gentry/gentry": "^0.13.7",
                 "gentry/toast": "^0.1.0",
-                "toast/unit": "^1.3"
+                "toast/unit": "^2.0"
             },
             "type": "library",
             "autoload": {
@@ -231,20 +231,20 @@
                 }
             ],
             "description": "Cachebuster command",
-            "time": "2019-11-12T15:07:10+00:00"
+            "time": "2019-12-23T09:56:28+00:00"
         },
         {
             "name": "monolyth/cesession",
-            "version": "1.1.5",
+            "version": "1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/cesession.git",
-                "reference": "227064090f793e1efe90a0b808687faebf0f816e"
+                "reference": "a8e318c4aeba294412a69e302b56efaeb4e92b2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/cesession/zipball/227064090f793e1efe90a0b808687faebf0f816e",
-                "reference": "227064090f793e1efe90a0b808687faebf0f816e",
+                "url": "https://api.github.com/repos/monolyth-php/cesession/zipball/a8e318c4aeba294412a69e302b56efaeb4e92b2f",
+                "reference": "a8e318c4aeba294412a69e302b56efaeb4e92b2f",
                 "shasum": ""
             },
             "require": {
@@ -253,7 +253,7 @@
             "require-dev": {
                 "gentry/gentry": "^0.13.0",
                 "gentry/toast": "^0.1.0",
-                "toast/unit": "^1.3"
+                "toast/unit": "^2"
             },
             "type": "library",
             "autoload": {
@@ -278,20 +278,20 @@
                 "php",
                 "session"
             ],
-            "time": "2019-08-18T13:00:59+00:00"
+            "time": "2019-12-07T14:44:34+00:00"
         },
         {
             "name": "monolyth/cliff",
-            "version": "0.4.2",
+            "version": "0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/cliff.git",
-                "reference": "a1d24044f443b62fe2d258fc7e88ee1fc8e85597"
+                "reference": "621ab4483a473244bf580207c2ce1d6a27148a80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/cliff/zipball/a1d24044f443b62fe2d258fc7e88ee1fc8e85597",
-                "reference": "a1d24044f443b62fe2d258fc7e88ee1fc8e85597",
+                "url": "https://api.github.com/repos/monolyth-php/cliff/zipball/621ab4483a473244bf580207c2ce1d6a27148a80",
+                "reference": "621ab4483a473244bf580207c2ce1d6a27148a80",
                 "shasum": ""
             },
             "require": {
@@ -324,7 +324,7 @@
                 }
             ],
             "description": "Command line interface for Monolyth unframework",
-            "time": "2019-11-14T09:17:16+00:00"
+            "time": "2019-12-23T09:31:52+00:00"
         },
         {
             "name": "monolyth/croney",
@@ -982,16 +982,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.4.1",
+            "version": "v4.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "76de473358fe802578a415d5bb43c296cf09d211"
+                "reference": "a08832b974dd5fafe3085a66d41fe4c84bb2628c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/76de473358fe802578a415d5bb43c296cf09d211",
-                "reference": "76de473358fe802578a415d5bb43c296cf09d211",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/a08832b974dd5fafe3085a66d41fe4c84bb2628c",
+                "reference": "a08832b974dd5fafe3085a66d41fe4c84bb2628c",
                 "shasum": ""
             },
             "require": {
@@ -1037,20 +1037,20 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2019-11-12T14:51:11+00:00"
+            "time": "2019-12-10T10:33:21+00:00"
         },
         {
             "name": "toast/unit",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/toast-php/unit.git",
-                "reference": "8d4a85038bd42162f661f63bba173279bb6573b7"
+                "reference": "3b992a32c895fd0eafd1a10335ec9a32004e39ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/toast-php/unit/zipball/8d4a85038bd42162f661f63bba173279bb6573b7",
-                "reference": "8d4a85038bd42162f661f63bba173279bb6573b7",
+                "url": "https://api.github.com/repos/toast-php/unit/zipball/3b992a32c895fd0eafd1a10335ec9a32004e39ac",
+                "reference": "3b992a32c895fd0eafd1a10335ec9a32004e39ac",
                 "shasum": ""
             },
             "require": {
@@ -1078,20 +1078,20 @@
                 }
             ],
             "description": "Super-simple unit testing for PHP7",
-            "time": "2019-11-08T14:52:41+00:00"
+            "time": "2019-12-21T13:50:00+00:00"
         },
         {
             "name": "ulrichsg/getopt-php",
-            "version": "3.2.2",
+            "version": "v3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getopt-php/getopt-php.git",
-                "reference": "9df490db25bd192d074f5de4210e232a8ddbeda0"
+                "reference": "373c478d4251a6ad2d42585ab51d58e950713c03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getopt-php/getopt-php/zipball/9df490db25bd192d074f5de4210e232a8ddbeda0",
-                "reference": "9df490db25bd192d074f5de4210e232a8ddbeda0",
+                "url": "https://api.github.com/repos/getopt-php/getopt-php/zipball/373c478d4251a6ad2d42585ab51d58e950713c03",
+                "reference": "373c478d4251a6ad2d42585ab51d58e950713c03",
                 "shasum": ""
             },
             "require": {
@@ -1122,9 +1122,9 @@
                     "email": "thflori@gmail.com"
                 }
             ],
-            "description": "Command line arguments parser for PHP 5.4 - 7.1",
+            "description": "Command line arguments parser for PHP 5.4 - 7.3",
             "homepage": "http://getopt-php.github.io/getopt-php",
-            "time": "2019-01-22T08:01:50+00:00"
+            "time": "2019-11-06T06:20:03+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
