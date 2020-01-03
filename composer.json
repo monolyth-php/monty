@@ -17,11 +17,11 @@
         "monolyth/disclosure": "^2.1.0",
         "monolyth/envy": "^0.6.0",
         "monolyth/formulaic": "^1.9.0",
-        "monolyth/frontal": "^1.0.2",
+        "monolyth/frontal": "^1.1.0",
         "monolyth/improse": "^0.7.0",
         "monolyth/mural": "^0.3.0",
         "monolyth/plumber": "^1.1.0",
-        "monolyth/reroute": "^5.0.0",
+        "monolyth/reroute": "^5.1.0",
         "monolyth/cliff": "^0.6.0",
         "monolyth/cachet": "^1.0.2"
     },
