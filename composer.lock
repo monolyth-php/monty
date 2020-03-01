@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "840d934d3256514c35d1037d54288260",
+    "content-hash": "5517f08ed33e7cc73bc930bf3657f583",
     "packages": [
         {
             "name": "filp/whoops",
@@ -99,16 +99,16 @@
         },
         {
             "name": "laminas/laminas-diactoros",
-            "version": "2.2.1",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-diactoros.git",
-                "reference": "064f0b20e832bb232d0311f915c7422fef1b1857"
+                "reference": "95178c4751d737cdf9ab0a9f70a42754ac860e7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-diactoros/zipball/064f0b20e832bb232d0311f915c7422fef1b1857",
-                "reference": "064f0b20e832bb232d0311f915c7422fef1b1857",
+                "url": "https://api.github.com/repos/laminas/laminas-diactoros/zipball/95178c4751d737cdf9ab0a9f70a42754ac860e7b",
+                "reference": "95178c4751d737cdf9ab0a9f70a42754ac860e7b",
                 "shasum": ""
             },
             "require": {
@@ -116,6 +116,9 @@
                 "php": "^7.1",
                 "psr/http-factory": "^1.0",
                 "psr/http-message": "^1.0"
+            },
+            "conflict": {
+                "phpspec/prophecy": "<1.9.0"
             },
             "provide": {
                 "psr/http-factory-implementation": "1.0",
@@ -131,7 +134,7 @@
                 "http-interop/http-factory-tests": "^0.5.0",
                 "laminas/laminas-coding-standard": "~1.0.0",
                 "php-http/psr7-integration-tests": "dev-master",
-                "phpunit/phpunit": "^7.0.2"
+                "phpunit/phpunit": "^7.5.18"
             },
             "type": "library",
             "extra": {
@@ -176,7 +179,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2019-12-31T16:41:56+00:00"
+            "time": "2020-01-07T19:39:26+00:00"
         },
         {
             "name": "laminas/laminas-httphandlerrunner",
@@ -239,16 +242,16 @@
         },
         {
             "name": "laminas/laminas-zendframework-bridge",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-zendframework-bridge.git",
-                "reference": "32d7095e436a31b8d98e485a5c63d70df74915a8"
+                "reference": "0fb9675b84a1666ab45182b6c5b29956921e818d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/32d7095e436a31b8d98e485a5c63d70df74915a8",
-                "reference": "32d7095e436a31b8d98e485a5c63d70df74915a8",
+                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/0fb9675b84a1666ab45182b6c5b29956921e818d",
+                "reference": "0fb9675b84a1666ab45182b6c5b29956921e818d",
                 "shasum": ""
             },
             "require": {
@@ -287,7 +290,7 @@
                 "laminas",
                 "zf"
             ],
-            "time": "2019-12-31T15:24:03+00:00"
+            "time": "2020-01-07T22:58:31+00:00"
         },
         {
             "name": "league/pipeline",
@@ -427,16 +430,16 @@
         },
         {
             "name": "monolyth/cesession",
-            "version": "1.1.6",
+            "version": "1.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/cesession.git",
-                "reference": "a8e318c4aeba294412a69e302b56efaeb4e92b2f"
+                "reference": "3402d4bfab27e2ca8807a241e10fae343ad54d77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/cesession/zipball/a8e318c4aeba294412a69e302b56efaeb4e92b2f",
-                "reference": "a8e318c4aeba294412a69e302b56efaeb4e92b2f",
+                "url": "https://api.github.com/repos/monolyth-php/cesession/zipball/3402d4bfab27e2ca8807a241e10fae343ad54d77",
+                "reference": "3402d4bfab27e2ca8807a241e10fae343ad54d77",
                 "shasum": ""
             },
             "require": {
@@ -470,7 +473,7 @@
                 "php",
                 "session"
             ],
-            "time": "2019-12-07T14:44:34+00:00"
+            "time": "2020-01-09T07:54:12+00:00"
         },
         {
             "name": "monolyth/cliff",
@@ -609,16 +612,16 @@
         },
         {
             "name": "monolyth/envy",
-            "version": "0.6.0",
+            "version": "0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/envy.git",
-                "reference": "b3c05dfa1075d81fb82d0ea7c33288a1a53e77b1"
+                "reference": "655a8ac4a761763c719218b6a82475a03eae9130"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/envy/zipball/b3c05dfa1075d81fb82d0ea7c33288a1a53e77b1",
-                "reference": "b3c05dfa1075d81fb82d0ea7c33288a1a53e77b1",
+                "url": "https://api.github.com/repos/monolyth-php/envy/zipball/655a8ac4a761763c719218b6a82475a03eae9130",
+                "reference": "655a8ac4a761763c719218b6a82475a03eae9130",
                 "shasum": ""
             },
             "require": {
@@ -644,20 +647,20 @@
                 }
             ],
             "description": "Flexible environment handler for PHP projects (including unit tests!)",
-            "time": "2019-06-06T13:25:55+00:00"
+            "time": "2020-02-09T15:20:55+00:00"
         },
         {
             "name": "monolyth/formulaic",
-            "version": "1.9.8",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/formulaic.git",
-                "reference": "fc700df36368ebe7bd795ac163c9fac01e8c01a4"
+                "reference": "37cbe143436b2d2b6b966993f0d125f8b3a592f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/fc700df36368ebe7bd795ac163c9fac01e8c01a4",
-                "reference": "fc700df36368ebe7bd795ac163c9fac01e8c01a4",
+                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/37cbe143436b2d2b6b966993f0d125f8b3a592f8",
+                "reference": "37cbe143436b2d2b6b966993f0d125f8b3a592f8",
                 "shasum": ""
             },
             "require": {
@@ -692,7 +695,7 @@
                 "php",
                 "validation"
             ],
-            "time": "2019-11-18T09:06:52+00:00"
+            "time": "2020-03-01T00:38:46+00:00"
         },
         {
             "name": "monolyth/frontal",
@@ -981,16 +984,16 @@
         },
         {
             "name": "monomelodies/reflex",
-            "version": "0.3.3",
+            "version": "0.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monomelodies/reflex.git",
-                "reference": "70dc4d8980bbb986bd86ec4d9e7112ba3c9728df"
+                "reference": "7bcd869dbf9aa108fda8c01a3544666288c02578"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monomelodies/reflex/zipball/70dc4d8980bbb986bd86ec4d9e7112ba3c9728df",
-                "reference": "70dc4d8980bbb986bd86ec4d9e7112ba3c9728df",
+                "url": "https://api.github.com/repos/monomelodies/reflex/zipball/7bcd869dbf9aa108fda8c01a3544666288c02578",
+                "reference": "7bcd869dbf9aa108fda8c01a3544666288c02578",
                 "shasum": ""
             },
             "require": {
@@ -998,7 +1001,7 @@
                 "zeptech/annotations": "^1.1"
             },
             "require-dev": {
-                "toast/unit": "^1.3"
+                "toast/unit": "^2"
             },
             "type": "library",
             "autoload": {
@@ -1018,7 +1021,7 @@
                 }
             ],
             "description": "Reflection utilities for PHP7+",
-            "time": "2019-10-05T15:58:17+00:00"
+            "time": "2020-02-09T12:22:51+00:00"
         },
         {
             "name": "psr/container",
@@ -1272,16 +1275,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.13.1",
+            "version": "v1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3"
+                "reference": "fbdeaec0df06cf3d51c93de80c7eb76e271f5a38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
-                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/fbdeaec0df06cf3d51c93de80c7eb76e271f5a38",
+                "reference": "fbdeaec0df06cf3d51c93de80c7eb76e271f5a38",
                 "shasum": ""
             },
             "require": {
@@ -1293,7 +1296,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.13-dev"
+                    "dev-master": "1.14-dev"
                 }
             },
             "autoload": {
@@ -1326,20 +1329,20 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2019-11-27T13:56:44+00:00"
+            "time": "2020-01-13T11:15:53+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.4.2",
+            "version": "v4.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "a08832b974dd5fafe3085a66d41fe4c84bb2628c"
+                "reference": "94d005c176db2080e98825d98e01e8b311a97a88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/a08832b974dd5fafe3085a66d41fe4c84bb2628c",
-                "reference": "a08832b974dd5fafe3085a66d41fe4c84bb2628c",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/94d005c176db2080e98825d98e01e8b311a97a88",
+                "reference": "94d005c176db2080e98825d98e01e8b311a97a88",
                 "shasum": ""
             },
             "require": {
@@ -1385,20 +1388,20 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2019-12-10T10:33:21+00:00"
+            "time": "2020-02-03T10:46:43+00:00"
         },
         {
             "name": "toast/unit",
-            "version": "2.1.1",
+            "version": "2.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/toast-php/unit.git",
-                "reference": "53c412260493cbfa1f5ec8284e764be1334c3c95"
+                "reference": "f9503a18f9739dce6d07b74399e888bbaba7d858"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/toast-php/unit/zipball/53c412260493cbfa1f5ec8284e764be1334c3c95",
-                "reference": "53c412260493cbfa1f5ec8284e764be1334c3c95",
+                "url": "https://api.github.com/repos/toast-php/unit/zipball/f9503a18f9739dce6d07b74399e888bbaba7d858",
+                "reference": "f9503a18f9739dce6d07b74399e888bbaba7d858",
                 "shasum": ""
             },
             "require": {
@@ -1427,7 +1430,7 @@
                 }
             ],
             "description": "Super-simple unit testing for PHP7",
-            "time": "2019-12-28T13:26:39+00:00"
+            "time": "2020-02-22T14:29:32+00:00"
         },
         {
             "name": "ulrichsg/getopt-php",
