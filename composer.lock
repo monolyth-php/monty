@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5517f08ed33e7cc73bc930bf3657f583",
+    "content-hash": "8ecc5740b785f31a9f476a4b0c8a94ab",
     "packages": [
         {
             "name": "filp/whoops",
@@ -340,6 +340,64 @@
             "time": "2015-06-25T16:50:06+00:00"
         },
         {
+            "name": "m1/env",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/m1/Env.git",
+                "reference": "5c296e3e13450a207e12b343f3af1d7ab569f6f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/m1/Env/zipball/5c296e3e13450a207e12b343f3af1d7ab569f6f3",
+                "reference": "5c296e3e13450a207e12b343f3af1d7ab569f6f3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*",
+                "scrutinizer/ocular": "~1.1",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "suggest": {
+                "josegonzalez/dotenv": "For loading of .env",
+                "m1/vars": "For loading of configs"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "M1\\Env\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Miles Croxford",
+                    "email": "hello@milescroxford.com",
+                    "homepage": "http://milescroxford.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Env is a lightweight library bringing .env file parser compatibility to PHP. In short - it enables you to read .env files with PHP.",
+            "homepage": "https://github.com/m1/Env",
+            "keywords": [
+                ".env",
+                "config",
+                "dotenv",
+                "env",
+                "loader",
+                "m1",
+                "parser",
+                "support"
+            ],
+            "time": "2020-02-19T09:02:13+00:00"
+        },
+        {
             "name": "monolyth/booby",
             "version": "1.2.2",
             "source": {
@@ -612,23 +670,23 @@
         },
         {
             "name": "monolyth/envy",
-            "version": "0.6.1",
+            "version": "0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/envy.git",
-                "reference": "655a8ac4a761763c719218b6a82475a03eae9130"
+                "reference": "5cd0886b94ea7053e3e0fa83c7c7c48ac6026374"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/envy/zipball/655a8ac4a761763c719218b6a82475a03eae9130",
-                "reference": "655a8ac4a761763c719218b6a82475a03eae9130",
+                "url": "https://api.github.com/repos/monolyth-php/envy/zipball/5cd0886b94ea7053e3e0fa83c7c7c48ac6026374",
+                "reference": "5cd0886b94ea7053e3e0fa83c7c7c48ac6026374",
                 "shasum": ""
             },
             "require": {
-                "monomelodies/kingconf": "^1.1.5"
+                "m1/env": "^2.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.1.6"
+                "toast/unit": "^2.1"
             },
             "type": "library",
             "autoload": {
@@ -647,20 +705,20 @@
                 }
             ],
             "description": "Flexible environment handler for PHP projects (including unit tests!)",
-            "time": "2020-02-09T15:20:55+00:00"
+            "time": "2020-03-15T13:35:51+00:00"
         },
         {
             "name": "monolyth/formulaic",
-            "version": "1.10.0",
+            "version": "1.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/formulaic.git",
-                "reference": "37cbe143436b2d2b6b966993f0d125f8b3a592f8"
+                "reference": "f19972d603a2642d8134e54cf4a0946849d06327"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/37cbe143436b2d2b6b966993f0d125f8b3a592f8",
-                "reference": "37cbe143436b2d2b6b966993f0d125f8b3a592f8",
+                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/f19972d603a2642d8134e54cf4a0946849d06327",
+                "reference": "f19972d603a2642d8134e54cf4a0946849d06327",
                 "shasum": ""
             },
             "require": {
@@ -695,7 +753,7 @@
                 "php",
                 "validation"
             ],
-            "time": "2020-03-01T00:38:46+00:00"
+            "time": "2020-03-08T15:32:10+00:00"
         },
         {
             "name": "monolyth/frontal",
