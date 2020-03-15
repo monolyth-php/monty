@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ecc5740b785f31a9f476a4b0c8a94ab",
+    "content-hash": "c8895e44dd718a4cf8d3a9d6796bc496",
     "packages": [
         {
             "name": "filp/whoops",
@@ -670,16 +670,16 @@
         },
         {
             "name": "monolyth/envy",
-            "version": "0.7.0",
+            "version": "0.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/envy.git",
-                "reference": "5cd0886b94ea7053e3e0fa83c7c7c48ac6026374"
+                "reference": "838b219c3c917af5d9502556deff95e1894b089d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/envy/zipball/5cd0886b94ea7053e3e0fa83c7c7c48ac6026374",
-                "reference": "5cd0886b94ea7053e3e0fa83c7c7c48ac6026374",
+                "url": "https://api.github.com/repos/monolyth-php/envy/zipball/838b219c3c917af5d9502556deff95e1894b089d",
+                "reference": "838b219c3c917af5d9502556deff95e1894b089d",
                 "shasum": ""
             },
             "require": {
@@ -705,7 +705,7 @@
                 }
             ],
             "description": "Flexible environment handler for PHP projects (including unit tests!)",
-            "time": "2020-03-15T13:35:51+00:00"
+            "time": "2020-03-15T14:06:23+00:00"
         },
         {
             "name": "monolyth/formulaic",
