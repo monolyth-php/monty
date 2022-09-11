@@ -839,16 +839,16 @@
         },
         {
             "name": "monolyth/frontal",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/frontal.git",
-                "reference": "a501110740eec98248fd642e00b13873117ae0f5"
+                "reference": "4417dd2efbbc08ffc94cec71a68f61e4d1ff1faf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/frontal/zipball/a501110740eec98248fd642e00b13873117ae0f5",
-                "reference": "a501110740eec98248fd642e00b13873117ae0f5",
+                "url": "https://api.github.com/repos/monolyth-php/frontal/zipball/4417dd2efbbc08ffc94cec71a68f61e4d1ff1faf",
+                "reference": "4417dd2efbbc08ffc94cec71a68f61e4d1ff1faf",
                 "shasum": ""
             },
             "require": {
@@ -894,9 +894,9 @@
             ],
             "support": {
                 "issues": "https://github.com/monolyth-php/frontal/issues",
-                "source": "https://github.com/monolyth-php/frontal/tree/master"
+                "source": "https://github.com/monolyth-php/frontal/tree/1.1.1"
             },
-            "time": "2020-01-03T08:41:59+00:00"
+            "time": "2022-09-11T14:19:32+00:00"
         },
         {
             "name": "monolyth/improse",
