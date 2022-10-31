@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d964f297a8c747c3dd7cd247e4b0b6db",
+    "content-hash": "ab7148cfdd8931e090509c8f6b6e4edb",
     "packages": [
         {
             "name": "filp/whoops",
@@ -693,16 +693,16 @@
         },
         {
             "name": "monolyth/disclosure",
-            "version": "3.2.0",
+            "version": "3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/disclosure.git",
-                "reference": "b196558ed10d20f2470588820c4677e2823f7ff6"
+                "reference": "3b146e1017cbf1671088f2677103d823a7785fc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/disclosure/zipball/b196558ed10d20f2470588820c4677e2823f7ff6",
-                "reference": "b196558ed10d20f2470588820c4677e2823f7ff6",
+                "url": "https://api.github.com/repos/monolyth-php/disclosure/zipball/3b146e1017cbf1671088f2677103d823a7785fc9",
+                "reference": "3b146e1017cbf1671088f2677103d823a7785fc9",
                 "shasum": ""
             },
             "require": {
@@ -738,9 +738,9 @@
             ],
             "support": {
                 "issues": "https://github.com/monolyth-php/disclosure/issues",
-                "source": "https://github.com/monolyth-php/disclosure/tree/3.2.0"
+                "source": "https://github.com/monolyth-php/disclosure/tree/3.2.1"
             },
-            "time": "2022-10-28T12:20:32+00:00"
+            "time": "2022-10-29T04:57:10+00:00"
         },
         {
             "name": "monolyth/envy",
@@ -787,23 +787,23 @@
         },
         {
             "name": "monolyth/formulaic",
-            "version": "1.11.5",
+            "version": "1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/formulaic.git",
-                "reference": "9fc45ea946172bfd853105678c24fe4ff3cca703"
+                "reference": "770c965a95e5909c68da996061be8a85c83ba41b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/9fc45ea946172bfd853105678c24fe4ff3cca703",
-                "reference": "9fc45ea946172bfd853105678c24fe4ff3cca703",
+                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/770c965a95e5909c68da996061be8a85c83ba41b",
+                "reference": "770c965a95e5909c68da996061be8a85c83ba41b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.1"
             },
             "require-dev": {
-                "gentry/gentry": "^0.13",
+                "gentry/gentry": "^0.16",
                 "toast/unit": "^2.1.7"
             },
             "type": "library",
@@ -833,9 +833,9 @@
             ],
             "support": {
                 "issues": "https://github.com/monolyth-php/formulaic/issues",
-                "source": "https://github.com/monolyth-php/formulaic/tree/1.11.5"
+                "source": "https://github.com/monolyth-php/formulaic/tree/1.12.0"
             },
-            "time": "2022-10-26T13:20:31+00:00"
+            "time": "2022-10-31T08:39:14+00:00"
         },
         {
             "name": "monolyth/frontal",
