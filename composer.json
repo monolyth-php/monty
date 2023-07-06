@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=7.3",
+        "php": ">=8.2",
         "monolyth/booby": "^1.2.0",
         "monolyth/cesession": "^1.1.8",
         "monolyth/croney": "^0.6.0",
