@@ -4,70 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec7fc207bca24e6f9349a0c1a541799c",
+    "content-hash": "d2c7ad1d5f1c6b1ec8ba68bb6c5e4c1b",
     "packages": [
-        {
-            "name": "filp/whoops",
-            "version": "1.1.10",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/filp/whoops.git",
-                "reference": "72538eeb70bbfb11964412a3d098d109efd012f7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/72538eeb70bbfb11964412a3d098d109efd012f7",
-                "reference": "72538eeb70bbfb11964412a3d098d109efd012f7",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "0.9.*"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Whoops": "src/"
-                },
-                "classmap": [
-                    "src/deprecated"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Filipe Dobreira",
-                    "homepage": "https://github.com/filp",
-                    "role": "Developer"
-                }
-            ],
-            "description": "php error handling for cool kids",
-            "homepage": "https://github.com/filp/whoops",
-            "keywords": [
-                "error",
-                "exception",
-                "handling",
-                "library",
-                "silex-provider",
-                "whoops",
-                "zf2"
-            ],
-            "support": {
-                "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/1.1.7"
-            },
-            "time": "2015-06-29T05:42:04+00:00"
-        },
         {
             "name": "jakeasmith/http_build_url",
             "version": "1.0.1",
@@ -472,25 +410,25 @@
         },
         {
             "name": "monolyth/cesession",
-            "version": "1.1.9",
+            "version": "1.1.11",
             "source": {
                 "type": "git",
-                "url": "https://github.com/monomelodies/cesession.git",
-                "reference": "f5f34ef421d9350d81af041014c83af35a865f37"
+                "url": "https://github.com/monolyth-php/cesession.git",
+                "reference": "92858355910e67c3733ae32ad2720ae8976f06ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monomelodies/cesession/zipball/f5f34ef421d9350d81af041014c83af35a865f37",
-                "reference": "f5f34ef421d9350d81af041014c83af35a865f37",
+                "url": "https://api.github.com/repos/monolyth-php/cesession/zipball/92858355910e67c3733ae32ad2720ae8976f06ef",
+                "reference": "92858355910e67c3733ae32ad2720ae8976f06ef",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.3"
             },
             "require-dev": {
-                "gentry/gentry": "^0.13.0",
+                "gentry/gentry": "^0.16.12",
                 "gentry/toast": "^0.1.0",
-                "toast/unit": "^2"
+                "toast/unit": "^2.2.2"
             },
             "type": "library",
             "autoload": {
@@ -516,10 +454,10 @@
                 "session"
             ],
             "support": {
-                "issues": "https://github.com/monomelodies/cesession/issues",
-                "source": "https://github.com/monomelodies/cesession/tree/1.1.9"
+                "issues": "https://github.com/monolyth-php/cesession/issues",
+                "source": "https://github.com/monolyth-php/cesession/tree/1.1.11"
             },
-            "time": "2022-03-09T14:49:48+00:00"
+            "time": "2025-03-06T15:06:13+00:00"
         },
         {
             "name": "monolyth/cliff",
@@ -619,16 +557,16 @@
         },
         {
             "name": "monolyth/disclosure",
-            "version": "3.2.1",
+            "version": "3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/disclosure.git",
-                "reference": "3b146e1017cbf1671088f2677103d823a7785fc9"
+                "reference": "696871b6de80c27167b993b9f8206102b83b247e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/disclosure/zipball/3b146e1017cbf1671088f2677103d823a7785fc9",
-                "reference": "3b146e1017cbf1671088f2677103d823a7785fc9",
+                "url": "https://api.github.com/repos/monolyth-php/disclosure/zipball/696871b6de80c27167b993b9f8206102b83b247e",
+                "reference": "696871b6de80c27167b993b9f8206102b83b247e",
                 "shasum": ""
             },
             "require": {
@@ -664,9 +602,9 @@
             ],
             "support": {
                 "issues": "https://github.com/monolyth-php/disclosure/issues",
-                "source": "https://github.com/monolyth-php/disclosure/tree/3.2.1"
+                "source": "https://github.com/monolyth-php/disclosure/tree/3.2.2"
             },
-            "time": "2022-10-29T04:57:10+00:00"
+            "time": "2025-02-25T17:12:17+00:00"
         },
         {
             "name": "monolyth/envy",
@@ -714,16 +652,16 @@
         },
         {
             "name": "monolyth/formulaic",
-            "version": "1.13.0",
+            "version": "1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/formulaic.git",
-                "reference": "8170a56117f92fb16017717c52096827a6b14594"
+                "reference": "42b6335aef74a7ede0a441a8d974f8f23400b915"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/8170a56117f92fb16017717c52096827a6b14594",
-                "reference": "8170a56117f92fb16017717c52096827a6b14594",
+                "url": "https://api.github.com/repos/monolyth-php/formulaic/zipball/42b6335aef74a7ede0a441a8d974f8f23400b915",
+                "reference": "42b6335aef74a7ede0a441a8d974f8f23400b915",
                 "shasum": ""
             },
             "require": {
@@ -760,22 +698,22 @@
             ],
             "support": {
                 "issues": "https://github.com/monolyth-php/formulaic/issues",
-                "source": "https://github.com/monolyth-php/formulaic/tree/1.13.0"
+                "source": "https://github.com/monolyth-php/formulaic/tree/1.13.1"
             },
-            "time": "2025-02-27T18:24:41+00:00"
+            "time": "2025-02-28T12:15:29+00:00"
         },
         {
             "name": "monolyth/frontal",
-            "version": "1.1.6",
+            "version": "1.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/frontal.git",
-                "reference": "fc4abf0caf77d35ddce7c8003e21ab8f4ce14c5a"
+                "reference": "1df96a60ead91eca0c63935117ce88df34fd5234"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/frontal/zipball/fc4abf0caf77d35ddce7c8003e21ab8f4ce14c5a",
-                "reference": "fc4abf0caf77d35ddce7c8003e21ab8f4ce14c5a",
+                "url": "https://api.github.com/repos/monolyth-php/frontal/zipball/1df96a60ead91eca0c63935117ce88df34fd5234",
+                "reference": "1df96a60ead91eca0c63935117ce88df34fd5234",
                 "shasum": ""
             },
             "require": {
@@ -785,9 +723,9 @@
                 "php": ">=8.1"
             },
             "require-dev": {
-                "gentry/gentry": "^0.13.12",
-                "gentry/toast": "^0.1.1",
-                "toast/unit": "^2.0"
+                "gentry/gentry": "^0.16.1",
+                "gentry/toast": "^0.2.1",
+                "toast/unit": "^2.2.2"
             },
             "suggest": {
                 "filp/whoops": "PHP errors for cool kids",
@@ -821,29 +759,30 @@
             ],
             "support": {
                 "issues": "https://github.com/monolyth-php/frontal/issues",
-                "source": "https://github.com/monolyth-php/frontal/tree/1.1.6"
+                "source": "https://github.com/monolyth-php/frontal/tree/1.1.7"
             },
-            "time": "2025-02-26T15:25:51+00:00"
+            "time": "2025-03-06T15:16:34+00:00"
         },
         {
             "name": "monolyth/improse",
-            "version": "0.7.5",
+            "version": "0.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/improse.git",
-                "reference": "59d2c5ed23af81d195c41c39aa6150531c339667"
+                "reference": "e09edffb317925df3b4277ffc5066e25afc60392"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/improse/zipball/59d2c5ed23af81d195c41c39aa6150531c339667",
-                "reference": "59d2c5ed23af81d195c41c39aa6150531c339667",
+                "url": "https://api.github.com/repos/monolyth-php/improse/zipball/e09edffb317925df3b4277ffc5066e25afc60392",
+                "reference": "e09edffb317925df3b4277ffc5066e25afc60392",
                 "shasum": ""
             },
-            "require": {
-                "filp/whoops": "^1.1"
-            },
             "require-dev": {
-                "gentry/gentry": "^0.10.0"
+                "gentry/gentry": "^0.16.0",
+                "toast/unit": "^2.2"
+            },
+            "suggest": {
+                "filp/whoops": "PHP errors for cool kids"
             },
             "type": "library",
             "autoload": {
@@ -870,9 +809,9 @@
             ],
             "support": {
                 "issues": "https://github.com/monolyth-php/improse/issues",
-                "source": "https://github.com/monolyth-php/improse/tree/0.7.5"
+                "source": "https://github.com/monolyth-php/improse/tree/0.7.7"
             },
-            "time": "2025-02-27T13:55:15+00:00"
+            "time": "2025-02-28T13:29:28+00:00"
         },
         {
             "name": "monolyth/plumber",
